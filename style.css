@@ -1,0 +1,40 @@
+body{
+    font-family: Verdana;
+}
+
+p{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.timer {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.home, .guest{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    text-align: center;
+}
+
+#scoreHome, #scoreGuest{
+    background-color: rgb(195, 221, 230);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.home-btn, .guest-btn{
+    text-align: center;
+}

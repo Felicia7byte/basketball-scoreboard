@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Basketball Scoreboard</p>
+
+    <div class="timer">
+        <span id="countdown">10:00</span>
+    </div>
+
+    <div class="container">
+        <div class="home">
+            <span>Home</span>
+            <span id="scoreHome">0</span>
+            <div class="home-btn">
+                <button onclick="plusOneHome()">+1</button>
+                <button onclick="plusTwoHome()">+2</button>
+                <button onclick="plusThreeHome()">+3</button>
+            </div>
+        </div>
+        
+        <div class="guest">
+            <span>Guest</span>
+            <span id="scoreGuest">0</span>
+            <div class="guest-btn">
+                <button onclick="plusOneGuest()">+1</button>
+                <button onclick="plusTwoGuest()">+2</button>
+                <button onclick="plusThreeGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
